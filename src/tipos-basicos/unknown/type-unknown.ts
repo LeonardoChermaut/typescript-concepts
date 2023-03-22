@@ -8,3 +8,5 @@ const y = 7;
 // console.log(x + y); error
 
 if (typeof x === 'number') console.log(x + y);
+
+export {};
