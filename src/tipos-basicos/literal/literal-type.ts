@@ -22,7 +22,7 @@ const selectColor = (color: 'RED' | 'YELLOW' | 'BLUE'): string => {
   return color;
 };
 
-console.log(selectColor('efef'));
+console.log(selectColor('RED'));
 
 //Module mode
 export {};
