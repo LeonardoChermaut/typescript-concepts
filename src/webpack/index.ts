@@ -1,1 +1,1 @@
-console.log('Running Webpack');
+export default (): void => console.log('Running Webpack');
