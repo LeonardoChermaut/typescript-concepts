@@ -1,7 +1,7 @@
 export abstract class Peaple {
   constructor(
     private readonly id: number,
-    protected readonly name: string,
+    public readonly name: string,
     protected readonly lastName: string,
     private readonly age: number,
     protected readonly cpf: string,
