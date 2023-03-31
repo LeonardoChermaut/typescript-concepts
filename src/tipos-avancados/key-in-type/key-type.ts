@@ -4,15 +4,17 @@ type Vehicle = {
 };
 
 type Car = {
+  name: string;
   brand: Vehicle['brand'];
   year: Vehicle['year'];
-  name: string;
 };
 
 const car: Car = {
+  name: 'Supra',
   brand: 'Toyota',
   year: '2023',
-  name: 'Supra',
 };
 
 console.log(car);
+
+export {}
