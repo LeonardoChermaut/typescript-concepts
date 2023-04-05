@@ -12,7 +12,6 @@ const doc: Doc = {
   data: new Date(),
 };
 
-
 //Se retornar null ou undefined é executado a operação do lado direito;
 console.log(doc.data?.toDateString() ?? 'You dont pass date');
 
