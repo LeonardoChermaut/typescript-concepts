@@ -14,4 +14,5 @@ const otherAsyncPromisse = (ms: number): Promise<number> => {
 
 asyncPromisse().then((result) => console.log('Async ', result + 1));
 otherAsyncPromisse(1000).then((result) => console.log('Other ', result + 1));
+
 export {};
